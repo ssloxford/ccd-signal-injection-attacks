@@ -1,6 +1,6 @@
 # Signal Injection Attacks against CCD Image Sensors
 
-<p align="center"><img src="https://via.placeholder.com/700X200" width="100%"><em style="color: grey">Fig. 1: Text injected into an otherwise empty frame.</em></p>
+<p align="center"><img src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/welcome.jpg" width="100%"><em style="color: grey">Fig. 1: Text injected into an otherwise empty frame.</em></p>
 
 This repository contains the evaluation source code used in our paper [**Signal Injection Attacks against CCD Image Sensors**](https://arxiv.org/).
 
@@ -9,7 +9,7 @@ We show that it is possible to manipulate the image information captured by a CC
 An example of the signal injection attack is given in Figure 1 above. 
 The text "Welcome!" was injected into an otherwise empty frame.
 
-<p align="center"><img src="https://via.placeholder.com/700X200" width="75%"><br><em style="color: grey">Fig. 2: Illustration of a readout of the generated signal charge from a CCD image sensor under the presence of an attack signal.</em></p>
+<p align="center"><img src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/attack_animation_cropped.gif" width="75%"><br><em style="color: grey">Fig. 2: Illustration of a readout of the generated signal charge from a CCD image sensor under the presence of an attack signal.</em></p>
 
 ## Structure of the Repository
 This repository is organized as follows:
@@ -54,14 +54,14 @@ Second, the frames are analyzed for barcodes and the results are stored in a CSV
 <table align="center"><tr>
 <td> 
   <p align="center">
-    <img alt="Forwarding" src="https://via.placeholder.com/700X200" width="300">
+    <img alt="Forwarding" src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/normal_operation_text.gif" width="300">
     <br>
     <em style="color: grey">a) Normal operation</em>
   </p> 
 </td>
 <td> 
   <p align="center">
-    <img alt="Routing" src="https://via.placeholder.com/700X200" width="300">
+    <img alt="Routing" src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/attack_operation_text.gif" width="300">
     <br>
     <em style="color: grey">b) Under attack</em>
   </p> 
@@ -78,7 +78,7 @@ This Jupyter Notebook calculates different image quality metrics for frame pairs
 
 This Jupyter Notebook implements an End-2-End attack pipeline. It takes an input image, extracts the Luma Y for each pixel, interpolates the extracted symbols, and emits the signal at a predefined carrier frequency.
 
-<p align="center"><img src="https://via.placeholder.com/700X200" width="90%"><br><em style="color: grey">Fig. 4: End-2-End representation of the signal injection attack.</em></p>
+<p align="center"><img src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/attack_pipeline_cdt_logo.jpg" width="90%"><br><em style="color: grey">Fig. 4: End-2-End representation of the signal injection attack.</em></p>
 
 #### Frequency Sweep
 
