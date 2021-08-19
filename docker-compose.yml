@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+    ccd_signal_injection:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        network_mode: "host"
+        privileged: true
+        image: ccd_signal_injection:ccd_signal_injection
+        environment:
+            - DISPLAY=$DISPLAY
+        container_name: ccd_signal_injection
+        stdin_open: true
+        tty: true
+        volumes:
+            - "./code:/home/code"

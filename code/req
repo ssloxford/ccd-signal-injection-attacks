@@ -1,0 +1,10 @@
+opencv-python==4.2.0.34
+mako
+jupyter
+numpy
+matplotlib
+pyzbar
+sewar
+scikit-image
+pandas
+scikit-learn
