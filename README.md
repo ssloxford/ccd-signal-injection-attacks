@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://github.com/ssloxford/ccd-signal-injection-attacks/blob/main/doc/welcome.jpg" width="100%"><em style="color: grey">Fig. 1: Text injected into an otherwise empty frame.</em></p>
 
-This repository contains the evaluation source code used in our paper [**Signal Injection Attacks against CCD Image Sensors**](https://arxiv.org/).
+This repository contains the evaluation source code used in our paper [**Signal Injection Attacks against CCD Image Sensors**](https://arxiv.org/abs/2108.08881).
 
 The paper presents a novel post-transducer signal injection attack against CCD image sensors using electromagnetic emanation.
 We show that it is possible to manipulate the image information captured by a CCD image sensor with the granularity down to the brightness of individual pixels.
