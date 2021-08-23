@@ -72,7 +72,7 @@ Second, the frames are analyzed for barcodes and the results are stored in a CSV
 
 #### Calculate Image Metrics
 
-This Jupyter Notebook calculates different image quality metrics for frame pairs. It is used to analyze the frames captured during the frequency sweep to find the resontant frequency of a CCD image sensor.
+This Jupyter Notebook calculates different image quality metrics for frame pairs. It is used to analyze the frames captured during the frequency sweep to find the resonant requency of a CCD image sensor.
 
 #### End-2-End Attack
 
@@ -101,7 +101,7 @@ You can now access the notebook via a browser at `localhost:8888`.
 
 ## Recommended Equipment
 
-To ensure that the evaluation can be replicated without issues, we recommend the following equippment.
+To ensure that the evaluation can be replicated without issues, we recommend the following equipment.
 
  * A software-defined radio with a maximum sample rate >= 25MSPS
  * A PC with the following minimum specifications:
